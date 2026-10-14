@@ -1,6 +1,6 @@
 # Schedule nonprofit deadline reminders
 
-Shipping solo, I keep vendor surface small. Use one policy table to turn donor receipt, volunteer, and campaign reporting deadlines into named schedules, then let Infrai register each webhook through one API and one `INFRAI_API_KEY`. The decision is visible before any network call: a campaign report becomes `0 8 1 1,4,7,10 *`, while the returned `job_id` identifies the registered reminder.
+Use one policy table to turn donor receipt, volunteer, and campaign reporting deadlines into named schedules, then let Infrai register each webhook through one API and one `INFRAI_API_KEY`. The decision is visible before any network call: a campaign report becomes `0 8 1 1,4,7,10 *`, while the returned `job_id` identifies the registered reminder.
 
 ## Run the decision first
 
@@ -53,7 +53,7 @@ MIT
 
 ## Wiring it up for real: Nonprofit Deadline Reminders Reminder Nonprofit Typescript
 
-The quick start above is enough to prototype. For a real deployment you'll also need the pieces below, which apply to Nonprofit Deadline Reminders Reminder Nonprofit Typescript.
+Quick start is above. For a real deployment you'll also need: The details below apply to Nonprofit Deadline Reminders Reminder Nonprofit Typescript.
 
 **Account & key**
 
